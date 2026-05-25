@@ -9,18 +9,30 @@ A backend API for managing expenses with full CRUD support, filtering, sorting, 
 
 .
 ├── expenses
-│   ├── controllers.py     # Business logic (CRUD + filters)
-│   ├── models.py          # Database models (SQLAlchemy)
-│   ├── router.py          # API routes
-│   ├── schemas.py         # Pydantic validation
+
+│       ├── controllers.py       # Business logic (CRUD + filters)
+
+│       ├── models.py            # Database models (SQLAlchemy)
+
+│       ├── router.py            # API routes
+
+│       ├── schemas.py           # Pydantic validation
+
 │
 ├── utils
-│   ├── db.py             # Database connection
-│   ├── setting.py        # Configuration (env, DB URL)
+
+│       ├── db.py               # Database connection
+
+│       ├── setting.py          # Configuration (env, DB URL)
+
 │
-├── main.py              # FastAPI entry point
+
+├── main.py    # FastAPI entry point
+
 ├── .gitignore
+
 ├── venv/ (ignored)
+
 
 ---
 
