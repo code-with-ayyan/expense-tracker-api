@@ -143,7 +143,6 @@ GET /expenses?search=milk&category=food&sort=asc&page=1&limit=5
 
 ## 📤 Example Response
 
-```json
 [
   {
     "id": 1,
