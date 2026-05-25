@@ -52,7 +52,7 @@ def get_expense(db: Session,
     category: str | None = None, 
     sort: str | None = None, 
     page: int | None = None, 
-    limit: int | None = None ):
+    limit: int | None = None):
     
     query = db.query(ExpenseModel)
 
