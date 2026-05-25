@@ -167,4 +167,3 @@ GET /expenses?search=milk&category=food&sort=asc&page=1&limit=5
 =======
 # expense-tracker-api
 FastAPI-based Expense Tracker API with CRUD operations, filtering, pagination, and SQLAlchemy ORM integration. Designed for learning backend development and API structure.
->>>>>>> 21851d527882535d6f91b3d13cdd8f4b6c1590c3
